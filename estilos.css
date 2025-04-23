@@ -1,0 +1,62 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f8f9fa; /* Un fondo gris claro */
+    color: #343a40; /* Un color de texto más oscuro y legible */
+  }
+  
+  /* Estilos para el encabezado principal (h1) */
+  h1 {
+    font-size: 2.8em;
+    color: #007bff; /* Azul principal */
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #007bff; /* Línea azul más prominente */
+  }
+  
+  /* Estilos para la imagen principal */
+  img {
+    display: block; /* Evita espacio extra debajo de la imagen */
+    max-width: 100%; /* La imagen no excederá el ancho de su contenedor */
+    height: auto;
+    margin: 20px auto; /* Centra la imagen horizontalmente y añade margen vertical */
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para la imagen */
+  }
+  
+  /* Estilos para los párrafos de texto */
+  .texto,
+  .texto2,
+  .texto3 {
+    font-size: 1.1em;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff; /* Fondo blanco para los párrafos */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Sombra sutil para los párrafos */
+  }
+  
+  /* Estilos específicos para el primer párrafo (texto) */
+  .texto {
+    color: #28a745; /* Un color verde para destacar la definición */
+    font-weight: bold; /* Resaltar la definición */
+  }
+  
+  /* Estilos específicos para el segundo párrafo (texto2) */
+  .texto2 {
+    color: #6c757d; /* Un gris más suave para la explicación */
+  }
+  
+  /* Estilos específicos para el tercer párrafo (texto3) */
+  .texto3 {
+    color: #17a2b8; /* Un color cian para la conclusión */
+  }
+  
+  /* Espacio entre párrafos (opcional, ya lo tienes con margin-bottom) */
+  br {
+    display: none; /* Oculta las etiquetas <br> para usar mejor los márgenes del CSS */
+  }
